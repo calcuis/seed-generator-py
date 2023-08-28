@@ -31,7 +31,7 @@ The code begins by importing various modules and functions:
 **Mnemonic Class**:
 
 This class represents the main functionality related to BIP39 mnemonics.
-- The class constructor (__init__) takes a language parameter and initializes the wordlist using a file named language.txt.
+- The class constructor (__init__) takes a language parameter and initializes the wordlist using a file named language (i.e., "english"+".txt").
 - The normalize_string method is a static method that converts input to a normalized UTF-8 string.
 - The generate method generates a BIP39 mnemonic using a given strength (128, 160, 192, 224, or 256 bits).
 - The to_entropy method converts a mnemonic to its corresponding entropy value.
