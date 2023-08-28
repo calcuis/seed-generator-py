@@ -54,4 +54,6 @@ In summary, the code provides a set of functions and a class to work with BIP39 
 
 pypi.org/project/mnemonic
 
+github.com/bitcoin/bips
+
 github.com/calcuis/seed-generator
