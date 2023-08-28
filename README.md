@@ -32,14 +32,14 @@ The code begins by importing various modules and functions:
 
 This class represents the main functionality related to BIP39 mnemonics.
 - The class constructor (__init__) takes a language parameter and initializes the wordlist using a file named language (i.e., "english"+".txt").
-- The normalize_string method is a static method that converts input to a normalized UTF-8 string.
-- The generate method generates a BIP39 mnemonic using a given strength (128, 160, 192, 224, or 256 bits).
-- The to_entropy method converts a mnemonic to its corresponding entropy value.
-- The to_mnemonic method converts entropy to a mnemonic.
-- The check method verifies the validity of a mnemonic.
-- The expand_word method expands a given prefix to a full word from the wordlist.
-- The expand method expands each word in a mnemonic.
-- The to_seed method derives a cryptographic seed from a mnemonic and an optional passphrase.
+- The `normalize_string` method is a static method that converts input to a normalized UTF-8 string.
+- The `generate` method generates a BIP39 mnemonic using a given strength (128, 160, 192, 224, or 256 bits).
+- The `to_entropy` method converts a mnemonic to its corresponding entropy value.
+- The `to_mnemonic` method converts entropy to a mnemonic.
+- The `check` method verifies the validity of a mnemonic.
+- The `expand_word` method expands a given prefix to a full word from the wordlist.
+- The `expand` method expands each word in a mnemonic.
+- The `to_seed` method derives a cryptographic seed from a mnemonic and an optional passphrase.
 
 **Infinite Loop for Generating Mnemonics**:
 - The code enters an infinite loop (while True) that allows the user to input a number of words for the mnemonic.
